@@ -19,3 +19,7 @@ function brandsSearch(arr, query) {
 console.log(brandsSearch(brands, 'a')); // result : [ 'asus', 'apple', 'acer' ]
 console.log(brandsSearch(brands, 'sa')); // result : [ 'samsung' ]
 console.log(brandsSearch(brands, 'son')); // result : [ 'sony' ]
+
+//-------------------***-----------------------------------------
+
+let filter = arr.filter((str)=> str.startsWith(query))

@@ -8,9 +8,12 @@ function isTruthy(num) {
 }
 console.log(isTruthy(array));
 // !  Answer:
-//----------------------------------------------------------------///
+//-----------------------------------***---------------------------------///
 
 function isTruthy(num){
   return num.some(Boolean);
 }
-console.log(isTruthy(array));
+console.log(isTruthy(array)); 
+
+///-------------------------------------------------------------------
+return num.some((arr)=> Boolean(arr))
